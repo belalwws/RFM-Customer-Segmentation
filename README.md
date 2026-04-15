@@ -1,21 +1,32 @@
-# RFM Customer Segmentation Project
+# RFM Customer Segmentation
 
-## 📌 Overview
-This project analyzes customer behavior using RFM (Recency, Frequency, Monetary) analysis.
+## Overview
+This project applies RFM analysis (Recency, Frequency, Monetary) to segment customers based on purchase behavior and support data-driven marketing decisions.
 
-## 📊 Steps
-- Merged monthly sales data using SQL
-- Calculated RFM metrics
-- Segmented customers into groups
-- Built a Power BI dashboard
+## Objectives
+- Measure how recently each customer purchased.
+- Measure how often each customer purchases.
+- Measure how much each customer spends.
+- Group customers into meaningful segments for action.
 
-## 🛠 Tools
-- BigQuery (SQL)
+## Project Workflow
+1. Prepare and merge sales data using SQL.
+2. Calculate Recency, Frequency, and Monetary metrics.
+3. Score customers and assign them to RFM segments.
+4. Build a Power BI dashboard for exploration and reporting.
+
+## Tech Stack
+- SQL (BigQuery-compatible)
 - Power BI
 
-## 📈 Output
-- Customer segmentation (Champions, Loyal, At Risk, Lost)
-- Interactive dashboard
+## Repository Structure
+- `rfm_analysis.sql`: SQL logic for RFM calculations and segmentation.
+- `README.md`: Project documentation.
+- `dashboard.PNG`: Dashboard screenshot.
 
-## 📷 Dashboard
-![Dashboard](dashboard.png)
+## Output
+- Customer segments such as Champions, Loyal, At Risk, and Lost.
+- Interactive dashboard for segment-level analysis.
+
+## Dashboard Preview
+![RFM Dashboard](./dashboard.PNG)
